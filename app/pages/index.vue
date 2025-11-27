@@ -150,11 +150,11 @@ import SideBar from "~/components/user/sidebar/SideBar.vue";
                     <p class="font-semibold text-sm">Craig Botosh</p>
                   </div>
                 </div>
-                <a
+                <!-- <a
                   class="block text-center text-primary font-semibold text-sm mt-4"
                   href="#"
                   >View All</a
-                >
+                > -->
               </div>
             
             </div>
