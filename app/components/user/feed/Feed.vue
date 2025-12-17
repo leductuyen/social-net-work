@@ -1,14 +1,16 @@
 <template>
-    <Story />
+    <PostStory />
     <PostComposer />
     <PostList />
     <PostComments />
 </template>
 
 <script setup lang="ts">
-import PostComments from './PostComments.vue';
-import PostComposer from './PostComposer.vue';
-import PostList from './PostList.vue';
-import Story from './Story.vue';
+
+import PostStory from './story/PostStory.vue';
+
+import PostComposer from './composer/PostComposer.vue';
+import PostList from './posts/PostList.vue';
+import PostComments from './comments/PostComments.vue';
 
 </script>
